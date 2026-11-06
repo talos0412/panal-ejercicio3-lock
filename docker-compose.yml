@@ -1,0 +1,16 @@
+# Inicia la seccion donde se declara los servicios que se van a utilizar
+services:
+
+  # declara el servicio de la aplicacion python con el nombre python-app
+  python-app:
+    image: python:3.11-alpine
+
+    # declara las carpetas del equipo que se van a montar en el contenedor
+    volumes:
+      # comparte la carpeta actual del equipo con la carpeta /app del contenedor
+      - .:/app
+
+    # establece la carpeta /app como directorio de trabajo dentro del contenedor
+    working_dir: /app
+    # ejecuta el comando python -u main.py al iniciar el contenedor
+    command: python -u main.py
