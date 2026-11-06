@@ -1,4 +1,4 @@
-# <img src="https://media.tenor.com/GvP5WfH4AKgAAAAj/bee-minecraft.gif" width="40" style="vertical-align: middle;" alt="Abeja"> Ejercicio 3: Hilos con Lock - Depósito en Celda de Miel <img src="https://minecraft.wiki/images/Honey_Bottle_JE1_BE2.png?78afc" width="40" style="vertical-align: middle;" alt="Abeja">
+# <img src="https://media.tenor.com/GvP5WfH4AKgAAAAj/bee-minecraft.gif" width="50" style="vertical-align: middle;" alt="Abeja"> Ejercicio 3: Hilos con Lock - Depósito en Celda de Miel <img src="https://minecraft.wiki/images/Honey_Bottle_JE1_BE2.png?78afc" width="50" style="vertical-align: middle;" alt="Abeja">
 
 
 
