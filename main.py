@@ -2,13 +2,13 @@ import time
 import threading
 
 espacio_celda = 5  # Variable global para simular el espacio en la celda de miel
-look=threading.Lock()  # Lock para sincronizar el acceso a la celda de miel
+lock=threading.Lock()  # Lock para sincronizar el acceso a la celda de miel
 
 def depositar_miel(abeja, cantidad):
     global espacio_celda
     
     
-    with look:
+    with lock:
         print(f"{abeja} está intentando depositar {cantidad} de miel en la celda.")
         time.sleep(1)  # Simula el tiempo de depósito
         
